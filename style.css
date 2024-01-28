@@ -72,18 +72,15 @@ button:hover{
 #generated-password {
     font-weight: bold;
     background-color: white;
-/*     min-height: 4rem; */
     width: 90%;
     margin-top: 20px;
     color: black;
-    /* line-height: 4rem; */
-    /* text-align: start; */
     border-radius: 1rem;
     font-size: 1.3rem;
     opacity: 0;
     word-break: break-all;
-/*     margin-bottom: 70px; */
     padding: 10px;
+    user-select:none;
 }
 .copyright{
     width: 100%;
