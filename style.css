@@ -89,10 +89,12 @@ button:hover{
     padding: 7px;
     text-align: left;
     border-radius: 1rem;
+    user-select: all;
     display: block;
     overflow: auto;
     font-size: 1.52rem;
     opacity: 0;
+    word-break: break-all;
 }
 .copyright{
     width: 100%;
