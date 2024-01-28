@@ -6,9 +6,7 @@
     text-decoration: none;
     list-style: none;
     font-family: Arial, sans-serif;
-    /* text-align: center; */
     color: white;
-    overflow: hidden;
     transition: all .3s linear;
     user-select:none;
 }
@@ -19,7 +17,6 @@ body {
     background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
     background-attachment: local;
     background-size: cover;
-    height: 100vh;
 }
 h2{
     font-size: 3rem;
@@ -39,15 +36,9 @@ h2{
     flex-direction: column;
     width: 80%;
     min-height: 65%;
-    /* background-color: var(--background-color); */
-    margin: 5% 10% 1% 10%;
-    justify-content: center;
-    border-radius: 1rem;
+    margin: 8% 10% 1% 10%;
+}
 
-}
-p{
-    height: 2rem;
-}
 input {
     padding: 8px;
     margin-bottom: 10px;
@@ -81,20 +72,18 @@ button:hover{
 #generated-password {
     font-weight: bold;
     background-color: white;
-    min-height: 8rem;
-    width: 80%;
+    min-height: 4rem;
+    width: 90%;
     margin-top: 20px;
     color: black;
     /* line-height: 4rem; */
-    padding: 7px;
-    text-align: left;
+    /* text-align: start; */
     border-radius: 1rem;
-    user-select: all;
-    display: block;
-    overflow: auto;
-    font-size: 1.52rem;
+    font-size: 1.3rem;
     opacity: 0;
     word-break: break-all;
+    margin-bottom: 70px;
+    padding: 10px;
 }
 .copyright{
     width: 100%;
@@ -110,7 +99,7 @@ button:hover{
         width: 95%;
     }
     .container{
-        margin: 5% 2.5% 1% 2.5%;
+        margin: 23% 2.5% 1% 2.5%;
     }
     html{
         font-size: 14px;
