@@ -79,15 +79,17 @@ button:hover{
 }
 #generated-password {
     font-weight: bold;
-    font-weight: bold;
     background-color: white;
-    min-height: 4rem;
-    width: 70%;
+    min-height: 8rem;
+    width: 80%;
     margin-top: 20px;
     color: black;
-    line-height: 4rem;
-    text-align: center;
+    /* line-height: 4rem; */
+    padding: 7px;
+    text-align: left;
     border-radius: 1rem;
+    display: block;
+    overflow: auto;
     font-size: 1.52rem;
 }
 @media screen and (max-width:700px){
@@ -99,6 +101,8 @@ button:hover{
     }
     html{
         font-size: 14px;
+    }#generated-password{
+        width:90%;
     }
 }
 
