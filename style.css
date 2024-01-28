@@ -80,7 +80,7 @@ button:hover{
     opacity: 0;
     word-break: break-all;
     padding: 10px;
-    user-select:auto;
+    user-select:text;
 }
 .copyright{
     width: 100%;
