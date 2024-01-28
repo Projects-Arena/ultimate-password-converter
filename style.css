@@ -10,6 +10,7 @@
     color: white;
     overflow: hidden;
     transition: all .3s linear;
+    user-select:none;
 }
 :root{
     --background-color:#06060685;
