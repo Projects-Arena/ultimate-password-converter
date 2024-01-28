@@ -35,7 +35,7 @@ function generatePassword() {
     }
     const finalPassword = strNew.join("");
     document.getElementById('generated-password').textContent = `Generated password: ${finalPassword}`;
-
+    document.getElementById('generated-password').style.opacity = "100%"
 }
 
 
